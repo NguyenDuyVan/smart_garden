@@ -1,0 +1,67 @@
+
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, #085078 0%, #85d8ce 100%);
+  color: #fff;
+  font-size: 30px;
+  padding: 0 20vw;
+}
+
+.app-mode {
+  position: relative;
+  top: 50px;
+}
+
+.list-device {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.device-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: .2s;
+}
+
+.device-info {
+  display: flex;
+}
+
+.device-name {
+  line-height: 50px;
+}
+
+.device-name:hover {
+  color: rgb(214, 236, 14);
+}
+
+.device-icon {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 50px;
+  margin-right: 20px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.device-btn, #mode-btn {
+  outline: none;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.device-btn:hover, #mode-btn:hover {
+  background-color: rgb(214, 236, 14);
+  color: #fff;
+}
