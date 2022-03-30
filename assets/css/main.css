@@ -5,6 +5,7 @@ body {
   color: #fff;
   font-size: 30px;
   padding: 0 20vw;
+  overflow: hidden;
 }
 
 .app-mode {
